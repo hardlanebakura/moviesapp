@@ -1,0 +1,51 @@
+#categories-selection {
+    margin-top: 4%;
+    text-align: center;
+}
+
+.movie-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    margin: 22px 40px;
+}
+
+.movie {
+
+}
+
+.movie-title {
+    font-weight: 600;
+    color: var(--lb);
+    overflow: hidden;
+    font-size: 1.3rem;
+    height: fit-content;
+    width: 370px;
+}
+
+.image-zoom {
+    height: 490px;
+    width: 340px;
+    overflow: hidden;
+}
+
+.image-zoom img {
+    height: 100%;
+    width: 100%;
+    transition: transform 0.4s ease;
+    transform-origin: 50% 50%;
+}
+
+.image-zoom img:hover { transform:scale(1.2); }
+
+.movie-rating {
+    display: flex;
+}
+
+.movie-rating img {
+    height: 26px;
+    width: 26px;
+}
+
+
+
+

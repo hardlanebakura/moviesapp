@@ -1,0 +1,16 @@
+#navbar-menu {
+    height: 40px;
+    background-color: var(--lb);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-menu__item {
+    margin-inline: 14px;
+    text-transform: uppercase;
+}
+
+
+

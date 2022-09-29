@@ -1,0 +1,65 @@
+#movie-wallpaper img {
+    height: 400px;
+    width: 100%;
+}
+
+#movie-info {
+    display: flex;
+    margin-inline: 24%;
+}
+
+#movie-poster img {
+    height: 240px;
+    width: 140px;
+    transform: translateY(-40px);
+}
+
+#movie-details {
+    margin: 1% 4%;
+    min-height: 466px;
+}
+
+#movie-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 11px;
+}
+
+.movie-detail {
+    display: flex;
+}
+
+.movie-detail__name {
+    width: 28%;
+    margin-bottom: 3px;
+    font-weight: 700;
+}
+
+.movie-detail__value {
+    color: gray;
+}
+
+#movie-synopsis {
+    margin-bottom: 11px;
+}
+
+#movie-companies {
+    display: flex;
+}
+
+.company {
+    margin-right: 40px;
+}
+
+#movie-companies img {
+    height: 70px;
+    width: 190px;
+    margin-top: 7px;
+}
+
+
+
+
+
+
+
